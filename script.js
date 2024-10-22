@@ -155,7 +155,7 @@ let cartData = [];
           
             requiredFields.forEach(function(field) {  
                 if (!field.value.trim()) { // Check if the field value (after removing spaces before and after) is empty 
-                    alert('表单不能为空');  
+                    alert('The form cannot be empty');  
                     formValid = false;  
                     event.preventDefault(); // Block form submission  
                     field.focus(); // Move focus to unfilled fields  
@@ -164,6 +164,6 @@ let cartData = [];
             });  
           
             if (formValid) {  
-                alert('表单提交成功');  
+                alert('Form submitted successfully');  
             }  
         });  
