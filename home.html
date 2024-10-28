@@ -1,0 +1,44 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Berkeley Home</title>  
+    <link rel="stylesheet" href="styles1.css"> <!-- 确保链接到相同的样式表 -->  
+</head>  
+<body>  
+    <header>  
+        <h1>Welcome to Berkeley</h1>  
+        <img src="shop3.webp" alt="Shopping App Header Image" class="header-image" style="display: block; margin: 0 auto; width: 100px; height: auto;">
+        <nav>  
+            <ul>  
+                <li><a href="home.html" onclick="showPage('homePage')">Home</a></li> <!-- 新增的 Home 链接 -->  
+                <li><a href="index.html" onclick="showPage('createUserPage')">Create User</a></li>  
+                <li><a href="login.html" onclick="showPage('loginPage')">Login</a></li>  
+                <li><a href="about.html">About Us</a></li>  
+                <li><a href="contact.html">Contact</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+      
+    <main>  
+        <section class="image-text-section">  
+            <div class="image-text-wrapper">  
+                <h2>The school (or educational institution) provides website development services that can design, develop, and test websites based on the needs of clients (such as RTO). </h2>  
+                <img src="R-C (1).jpg" alt="Home Page Header Left" class="main-image">  
+            </div>  
+            <div class="image-text-wrapper">  
+                <h2>The evaluation task related to a course or training program provided by the school can infer that the school may also provide vocational education and training services related to ICT, aimed at helping students or trainees acquire industry related practical skills and certifications.</h2>  
+                <img src="R-C.jpg" alt="Home Page Header Right" class="main-image">  
+            </div>  
+        </section>  
+    </main>
+      
+    <footer>  
+        <p>Juce Zhang Zhexuan. &copy; <?php echo date('Y'); ?></p> <!-- 添加版权年份，这里使用了PHP来动态生成当前年份 -->  
+    </footer>  
+      
+    <!-- 假设您有一个JavaScript文件用于处理页面交互 -->  
+    <script src="script.js"></script>  
+</body>  
+</html>
